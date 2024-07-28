@@ -142,43 +142,17 @@ open /Applications/Python\ 3.9/Install\ Certificates.command
 open /Applications/Python\ 3.6/Install\ Certificates.command
 ```
 
-##### Ruby
 
-```bash
-cd ./ruby
-bundle
-./start.sh
-```
-
-##### Go
-
-```bash
-cd ./go
-go build
-./start.sh
-```
-
-##### Java
-
-```bash
-cd ./java
-mvn clean package
-./start.sh
-```
-
-##### .NET
-
-A community-supported implementation of the Plaid Quickstart using the [Going.Plaid](https://github.com/viceroypenguin/Going.Plaid) client library can be found at [PlaidQuickstartBlazor](https://github.com/jcoliz/PlaidQuickstartBlazor). Note that Plaid does not provide first-party support for .NET client libraries and that this Quickstart and client library are not created, reviewed, or supported by Plaid. 
 
 #### 2. Running the frontend
 
 ```bash
-cd ./frontend
-npm ci
-npm start
+$ cd ./frontend
+$ npm ci
+$ npm start
 ```
 
-### Run with Docker
+#### Run with Docker
 
 #### Pre-requisites
 
